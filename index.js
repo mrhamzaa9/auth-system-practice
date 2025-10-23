@@ -7,7 +7,7 @@ const cookieParser = require("cookie-parser");
 require("dotenv").config(); 
 const PORT = process.env.PORT
 
-const UserController = require("./controller/user");
+
 
 // middleware for using to converter the data into json format
 app.use(express.json())
@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // rest api of user
 app.use("/user", userApis)
-app.delete("/deleteUser", UserController.del)
+
 
 
 // Start the server
