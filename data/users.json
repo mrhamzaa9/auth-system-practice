@@ -1,14 +1,20 @@
 [
   {
-    "id": 1,
-    "name": "umair",
-    "email": "@e111",
-    "password": "22122"
-  },
-  {
     "id": 2,
     "name": "umair2",
     "email": "@e111222",
     "password": "22144444422"
+  },
+  {
+    "id": 3,
+    "name": "umair bhai",
+    "email": "@e111rr222",
+    "password": "hashedPassword"
+  },
+  {
+    "id": 4,
+    "name": "umair rrbhai",
+    "email": "@e111rrrrrr222",
+    "password": "$2b$10$xANPEa3FTyqeX0E/fqrhdeKt0fUy9ammGNK5aUXE0VJPjzNqh.0cq"
   }
 ]
